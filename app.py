@@ -1,6 +1,6 @@
 # import les biblioteque
 import cv2
-from cvzone.HandTrackingModule import HandDetector  # Mettez à jour l'importation ici
+from cvzone.HandTrackingModule import HandDetector 
 # initialisation de la camera
 camera = cv2.VideoCapture(0)
 camera.set(cv2.CAP_PROP_FRAME_WIDTH,1280)
